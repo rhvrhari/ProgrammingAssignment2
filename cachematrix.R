@@ -1,6 +1,7 @@
 ## R program to cache the results of a matrix inverse operation
 
-## makeCacheMatrix function sets, gets and inverses a matrix
+## makeCacheMatrix function sets up the matrix, gets the value of the matrix, inverses the matrix
+## and gets the value of an inverted matrix (using the solve function)
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
